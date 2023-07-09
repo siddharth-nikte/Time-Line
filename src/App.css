@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#header {
+  background-image: url(/public/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 100%;
+  color: wheat;
+}
+
+#timeline {
+  display: flex;
+  height: 15vh;
+}
+
+#title{
+  font-size: medium;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card{
+  border-color: #282c34;
+  align-items: stretch;
+}
+
+.component {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#middle {
+  margin: 0;
+}
+
+.vertical-line {
+  position: relative;
+  width: 3px;
+  border: 5px dashed #00e054; 
+  height: 100%; 
+  border-radius: 20px;
+}
+
+.dot1 {
+  position: absolute;
+  top: 33%; 
+  width: 10px; 
+  height: 10px; 
+  background-color: #ff8000; 
+  border-radius: 50%; 
+}
+
+.dot2 {
+  position: absolute;
+  top: 66%;
+  right: 50%;
+  width: 10px; 
+  height: 10px; 
+  background-color: #ff8000; 
+  border-radius: 50%; 
+}
